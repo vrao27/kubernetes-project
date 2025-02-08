@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: vpro-ingress
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: "true"
 spec:
   ingressClassName: nginx
   rules:
