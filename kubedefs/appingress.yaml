@@ -8,7 +8,7 @@ spec:
   ingressClassName: nginx
   rules:
   - host: vprofile.tretvg.shop
-  - http:
+    http:
       paths:
       - path: /
         pathType: Prefix
